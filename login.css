@@ -1,0 +1,131 @@
+body{
+
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:"wdth" 100;
+    background: url(background.jpg);
+    text-decoration: none;
+    background-size:cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+.main_form{
+    display: flex;
+    margin-top:3rem;
+    justify-content: center;
+    color: aliceblue;
+     
+}
+#login_form{
+    height: 42rem;
+    width:35rem;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: inset 10px 10px 30px rgb(152, 17, 215),10px 10px 30px rgb(220, 131, 59);
+    background: rgba(64, 34, 99, 0.299);
+    color: aliceblue;
+    font-size: 2rem;
+    backdrop-filter: blur(10px);
+    transition:all 0.9s ease-in-out;
+    transform:scale(0.9);
+    cursor: pointer;
+}
+#hading{
+    text-align: center;
+    position: relative;
+    margin-top: -5px;
+    margin-bottom: 2rem;
+    font-size:5rem;
+    color: plum;
+}
+#icon{
+    display: inline-block;
+}
+#login_form label{
+    padding-left: 1rem;
+}
+#login_form input{
+    background: rgba(255, 255, 255, 0.567);
+    border: none;
+    margin-top: 0.5rem;
+    border-radius: 20px;
+    height: 2.5rem;
+    box-shadow: inset 4px 4px 5px rgba(0, 0, 0, 0.764), 4px 4px 10px rgb(250, 250, 250); 
+    transition:all 0.5s;
+    
+}
+/* .form-check{
+    display: flex;
+    font-size: x-large;
+    margin-top: 5rem;
+    height: fit-content;
+ 
+} */
+
+#Forget{
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     display: flex;
+    font-size: x-large;
+    margin-top: 2rem;
+    height: fit-content;
+}
+
+#login_form #login_btn{
+    display: inline-block;
+    align-items: center;
+    margin-left: 5rem;
+    /* margin-top: 2rem; */
+    width: 20rem;
+    background-color: rgba(198, 43, 226, 0.729);
+    border: none;
+    font-weight: 400;
+    font-size:x-large;
+    border-radius: 50px;
+    backdrop-filter: blur(2px);
+    box-shadow: inset 4px 4px 10px rgb(14, 14, 15),4px 4px 10px rgb(165, 165, 165); 
+    transition:all 0.9s ease-in-out;
+}
+
+#emailHelp{
+    color: aliceblue;
+}
+#login_form:hover {
+    transform:scale(1); 
+    color: black;
+    background-color: rgba(240, 248, 255, 0.256);
+    box-shadow: inset 10px 10px 50px rgb(255, 255, 255),10px 10px 50px rgb(255, 255, 255);
+    transform: rotate3d(0, 1, 0, 22deg);
+}
+#login_form:hover #login_btn{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    box-shadow: inset 4px 4px 10px rgba(255, 254, 254, 0.377), 4px 4px 10px rgb(0, 0, 0); 
+}
+#login_form:hover input{
+    background-color: rgba(0, 0, 0, 0.155);
+     box-shadow: inset 4px 4px 5px rgba(179, 179, 179, 0.764), 4px 4px 10px rgb(0, 0, 0);
+     color: white;
+}
+
+#login_form:hover #hading{
+    text-shadow:  4px 4px 5px rgba(0, 0, 0, 0.764), 4px 4px 10px rgb(0, 0, 0) ;
+    
+}
+#Check{
+    height: 1px;
+    padding-right: 2rem;
+    margin-left: 1rem;
+}
+#sign_up{
+    color: gray;
+    font-size: x-large;
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+}
